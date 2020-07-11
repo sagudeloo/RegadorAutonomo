@@ -1,4 +1,4 @@
-# Regador Autonomo
+# Regador Autónomo
 
 Proyecto open source de la implementación de un regador autónomo para una huerta casera
 
@@ -10,22 +10,20 @@ Proyecto open source de la implementación de un regador autónomo para una huer
 
 | Materiales                                             |                           Imagenes                           |
 | ------------------------------------------------------ | :----------------------------------------------------------: |
-| Arduino Uno                                            |   <img src="imagenes\arduinoUNO.png" style="zoom:60%;" />    |
-| Sensor de Humedad                                      | <img src="imagenes\SoilHumiditySensor.png" style="zoom:20%;" /> |
-| Bomba de Agua                                          |    <img src="imagenes\MiniBomba.png" style="zoom:15%;" />    |
-| Mangera para Bomba                                     |    <img src="imagenes\Manguera.png" style="zoom:50%;" />     |
-| Transistor (Recomendado: TIP122)                       |     <img src="imagenes\TIP122.png" style="zoom:40%;" />      |
-| Cable USB y adaptador (output 5V)                      | <img src="C:\Users\sagud\Projects\regadorAutonomo\imagenes\WallAdapter.png" style="zoom:15%;" /> |
-| Recipiente para Agua                                   |  <img src="imagenes\BotellaDeAgua.png" style="zoom:15%;" />  |
-| Resistencia (Suerior a 110 ohms, recomendada 220 ohms) | <img src="C:\Users\sagud\Projects\regadorAutonomo\imagenes\220Resistor.png" style="zoom:25%;" /> |
+| Arduino Uno                                            | <img src="imagenes/arduinoUNO.png" alt="arduinoUNO" style="zoom:60%;" /> |
+| Sensor de Humedad                                      | <img src="imagenes/SoilHumiditySensor.png" alt="SoilHumiditySensor" style="zoom:20%;" /> |
+| Bomba de Agua                                          | <img src="imagenes/MiniBomba.png" alt="MiniBomba" style="zoom:15%;" /> |
+| Mangera para Bomba                                     | <img src="imagenes/Manguera.png" alt="Manguera" style="zoom:50%;" /> |
+| Transistor (Recomendado: TIP122)                       | <img src="imagenes/TIP122.png" alt="TIP122" style="zoom:40%;" /> |
+| Cable USB y adaptador (output 5V)                      | <img src="imagenes/WallAdapter.png" alt="WallAdapter" style="zoom:15%;" /> |
+| Recipiente para Agua                                   | <img src="imagenes/BotellaDeAgua.png" alt="BotellaDeAgua" style="zoom:15%;" /> |
+| Resistencia (Suerior a 110 ohms, recomendada 220 ohms) | <img src="imagenes/220Resistor.png" alt="220Resistor" style="zoom:25%;" /> |
 
 A tener en cuenta al momento de conseguir los materiales es intentar usar en su mayoría materiales reciclado como una botella de plástico u otro sustituto, un cargador antiguo de 5V con el cable averiado pitillos de goma u otras mangueras reutilizables
 
 **Diagrama de conexiones:**
 
-![](C:\Users\sagud\Projects\regadorAutonomo\imagenes\DiagramaDeConexion.SVG)
-
-
+![DiagramaDeConexion](imagenes/DiagramaDeConexion.svg)
 
 ---
 
@@ -35,12 +33,17 @@ Para subirle el programa a nuestro sistema deberemos tener instalado es programa
 
 [Descargar Arduino](https://www.arduino.cc/en/Main/Software)
 
-Posteriormente deberemos abrir el codigo [RegadorAutonomo.ino](regadorAutonomo\regadorAutonomo.ino)
-
-
+Posteriormente deberemos abrir el código [RegadorAutonomo.ino]("regadorAutonomo.ino/regadorAutonomo.ino") y conectamos nuestro arduino 
 
 Seleccionaremos nuestra placa arduino
 
+![SeleccionarPlaca](imagenes/SeleccionarPlaca.png)
 
+Seleccionaremos el puerto donde esta conectada nuestra placa
 
-Compilamos y subimos el codigo
+![SeleccionarPuerto](imagenes/SeleccionarPuerto.png)
+
+Compilamos y subimos el código
+
+![CompilarYSubir](imagenes/CompilarYSubir.png)
+
