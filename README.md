@@ -23,7 +23,7 @@ A tener en cuenta al momento de conseguir los materiales es intentar usar en su 
 
 **Diagrama de conexiones:**
 
-![DiagramaDeConexion](imagenes/DiagramaDeConexion.svg)
+![DiagramaDeConexion](imagenes/DiagramaDeConexion.SVG)
 
 ---
 
@@ -33,7 +33,7 @@ Para subirle el programa a nuestro sistema deberemos tener instalado es programa
 
 [Descargar Arduino](https://www.arduino.cc/en/Main/Software)
 
-Posteriormente deberemos abrir el código [RegadorAutonomo.ino]("regadorAutonomo.ino/regadorAutonomo.ino") y conectamos nuestro arduino 
+Posteriormente deberemos abrir el código [regadorAutonomo.ino](regadorAutonomo/regadorAutonomo.ino)  y conectamos nuestro arduino 
 
 Seleccionaremos nuestra placa arduino
 
